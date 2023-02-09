@@ -1,0 +1,12 @@
+[package]
+name = "lectures1-8"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rand = "0.8.5"
+round = "0.1.2"
+statrs = "0.16.0"
+streaming-stats = "0.2.3"

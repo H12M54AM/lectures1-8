@@ -1,0 +1,62 @@
+PROCESS IN PROGRAM 
+
+
+fn main() {
+    // Start -     
+    Prompt user "Welcome! Choose your mode!
+        1. Chapter 1
+        2. Chapter 2
+        ...
+        9. Summary
+        10. Exit
+    ";
+    Match choice to option;
+}
+
+fn chapter_1() {
+
+    let correctValue = false;
+    let mut points:f64 = 0.0;
+    let mut partial_points:f64 = 0.5;
+    let mut full_points = 1.0;
+    let mut Mean, Median, Mode;
+    let random1, random2, random3 = random::method();
+    Outputs an array of numbers;
+
+    Prompt user "What is the Mean, Median, Mode?
+        Mean: ,
+        Median ,
+        Mode: ,
+    ";
+
+    if Mean == random1 {
+        points += full_points;
+        Prompt "Correct!"
+    } else {
+        points -= partial_points;
+    }
+
+    if Median == random2 {
+        points += full_points;
+        Prompt "Correct!"
+    } else {
+        points -= partial_points;
+    }
+
+    if Mode == random3 {
+        points += full_points;
+        Prompt "Correct!"
+    } else {
+        points -= partial_points;
+    }
+}
+
+// Helper Functions
+
+fn mean(array) {
+    let mut arr[];
+    arr += array
+    return arr / array.len()
+}
+
+
