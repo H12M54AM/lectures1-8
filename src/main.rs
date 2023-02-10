@@ -2,6 +2,7 @@
 
 mod gen_num;
 
+
 fn main() {
     // let x = gen_num::Num{max: 10}
     
