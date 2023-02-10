@@ -59,4 +59,8 @@ fn mean(array) {
     return arr / array.len()
 }
 
+fn mean(arr: &[f64]) -> f64 {
+    let sum = arr.iter().sum();
+    sum / arr.len() as f64
+}
 

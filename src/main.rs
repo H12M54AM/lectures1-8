@@ -1,9 +1,4 @@
-// mod Mathy;
-
-mod gen_num;
 use rand::prelude::*;
-use stats::*;
-
 
 fn main() {
   // let x = gen_num::Num{max: 10}
